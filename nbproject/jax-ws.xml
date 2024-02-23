@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="DetalleVentaWS">
+      <implementation-class>SW.DetalleVentaWS</implementation-class>
+    </service>
+    <service name="CategoriaWS">
+      <implementation-class>SW.CategoriaWS</implementation-class>
+    </service>
+    <service name="VentaWS">
+      <implementation-class>SW.VentaWS</implementation-class>
+    </service>
+    <service name="SubCategoriaSW">
+      <implementation-class>SW.SubCategoriaSW</implementation-class>
+    </service>
+    <service name="MarcaWS">
+      <implementation-class>SW.MarcaWS</implementation-class>
+    </service>
+    <service name="ProductoSW">
+      <implementation-class>SW.ProductoSW</implementation-class>
+    </service>
+    <service name="RolWS">
+      <implementation-class>SW.RolWS</implementation-class>
+    </service>
+    <service name="UsuarioWS">
+      <implementation-class>SW.UsuarioWS</implementation-class>
+    </service>
+    <service name="ClienteWS">
+      <implementation-class>SW.ClienteWS</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
